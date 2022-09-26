@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+  @apply py-2 px-4 font-semibold;
+}
+
+.btn-success{
+  @apply bg-green-400 rounded-lg shadow-lg text-white hover:bg-green-700
+}
+
+
+.cartBg{
+  background-image: url("../public/cart.png");
+  background-repeat: no-repeat;
+ 
+ 
+}
+.scroller{
+  background-color: rgb(0, 0, 0, 0.1);
+}
+.scroller1{
+  background-color: rgb(0, 0, 0, 0.3);
+}
